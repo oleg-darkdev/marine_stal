@@ -15,7 +15,7 @@
 				/>
 			</svg>
 		</a>
-
+<!--
 		<span class="mx-5 text-gray-500 rtl:-scale-x-100 ">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
 			</svg>
 		</span>
 
-		<a href="#" class="text-white hover:underline "> Portfolio </a>
+		<a href="#" class="text-white hover:underline "> Portfolio </a> -->
 
 		<span class="mx-5 text-gray-500 rtl:-scale-x-100 ">
 			<svg
