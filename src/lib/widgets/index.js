@@ -6,6 +6,18 @@ import Footer from './ui/landing/Footer.svelte';
 import Progects from './ui/landing/Progects.svelte';
 import Stats from './ui/landing/Stats.svelte';
 import Gallery from './ui/landing/Gallery.svelte';
+import BreadCrumbs from './ui/landing/BreadCrumbs.svelte';
 import ProgectGallery from './ui/landing/ProgectGallery.svelte';
 
-export { Header, About, Partners, Slider, Footer, Progects, Stats, Gallery, ProgectGallery };
+export {
+	Header,
+	About,
+	Partners,
+	Slider,
+	Footer,
+	Progects,
+	Stats,
+	Gallery,
+	ProgectGallery,
+	BreadCrumbs
+};
