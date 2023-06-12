@@ -14,7 +14,7 @@
 		},
 		{
 			title: 'Projekty',
-			link: '#projekty' 
+			link: '#projekty'
 		},
 		{
 			title: 'Nasi partnerzy',
@@ -35,7 +35,7 @@
         Marine Stal Sp. z o. o.
 			</a> -->
 
-			<div class="w-full max-w-6xl flex items-center flex-col  ">
+			<div class="flex w-full max-w-6xl flex-col items-center  ">
 				<div style=" justify-content: space-between;" class="flex w-7/12  flex-row flex-wrap  ">
 					<a
 						href=""

@@ -1,5 +1,5 @@
 <script>
-	import {  About, Partners, Slider,  Progects, Stats, Gallery } from '../lib/widgets/';
+	import {  About, Partners, Slider, Header, Progects, Stats, Gallery } from '../lib/widgets/';
 	import { BottomWave } from '../lib/shared';
 	import { portfolio, partners } from '../lib/shared';
 
@@ -17,7 +17,7 @@
 	<title>Statki | Marine stal | Gdańsk</title>
 </svelte:head>
 
-
+<Header />
 <main class="overflow-hidden bg-primary  ">
 	<!-- <div class="flex-1 overflow-y-scroll "> -->
 	<div class="hero flex min-h-screen flex-col overflow-hidden">
