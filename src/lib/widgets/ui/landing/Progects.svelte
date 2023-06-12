@@ -29,7 +29,7 @@
 				>
 					<img
 						class="w-full rounded-t-xl object-cover object-center md:h-36 lg:h-48"
-						src="images/portfolio/{progect.link}/{progect.img}"
+						src="/images/portfolio/{progect.link}/{progect.img}"
 						alt="{progect.title}"
 					/>
 					<div class="px-4 py-6">
