@@ -4,7 +4,7 @@
 
 <div class="bg-blue-600">
 	<div class=" container mx-auto flex  items-center overflow-x-auto whitespace-nowrap px-6 py-4">
-		<a href="#" class="text-white ">
+		<a href="/" class="text-white ">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-5 w-5 fill-white"
