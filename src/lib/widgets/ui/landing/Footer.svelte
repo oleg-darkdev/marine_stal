@@ -24,7 +24,7 @@
 		<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 			<div class="text-white xl:col-span-1">
 				<a
-					href="./index.html"
+					href="./"
 					class="tracking-relaxed  transform text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out lg:pr-8"
 				>
 					Marine Stal Sp. z o. o.
