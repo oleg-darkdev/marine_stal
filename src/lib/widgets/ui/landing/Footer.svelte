@@ -76,7 +76,7 @@
 							{#each portfolio as progect}
 								<li>
 									<a
-										href={progect.link}
+										href='./portfolio/{progect.link}'
 										class="text-base font-normal text-gray-500 hover:text-blue-600"
 									>
 										{progect.title}
