@@ -30,7 +30,7 @@
 					<img
 						class="w-full rounded-t-xl object-cover object-center md:h-36 lg:h-48"
 						src="images/portfolio/{progect.link}/{progect.img}"
-						alt="blog"
+						alt="{progect.title}"
 					/>
 					<div class="px-4 py-6">
 						<h4 class="mt-4 text-2xl font-semibold text-neutral-600">
