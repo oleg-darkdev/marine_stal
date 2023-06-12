@@ -22,7 +22,7 @@
 
 <div class="mx-auto grid max-w-3xl grid-cols-3 gap-y-10">
 	{#each progects as progect}
-		<a class="" href="/portfolio/{progect.link}">
+		<a class="" href="/portfolio/{progect.link}" target="_blank">
 			<div class="flex w-full">
 				<div
 					class="h-90 relative m-1 flex transform flex-col items-start rounded-xl bg-white shadow-2xl transition delay-150 duration-300 ease-in-out md:-ml-16 md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8"
@@ -30,7 +30,7 @@
 					<img
 						class="w-full rounded-t-xl object-cover object-center md:h-36 lg:h-48"
 						src="/images/portfolio/{progect.link}/{progect.img}"
-						alt="{progect.title}"
+						alt={progect.title}
 					/>
 					<div class="px-4 py-6">
 						<h4 class="mt-4 text-2xl font-semibold text-neutral-600">
