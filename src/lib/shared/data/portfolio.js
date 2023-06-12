@@ -68,7 +68,7 @@ const portfolio = [
 		gallery: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
 		client: 'Lorem ipsum dolor',
 
-		banner: '',
+		banner: 'promo.jpg',
 		img: 'promo.jpg',
 		fullDesc: [
 			[
@@ -93,7 +93,7 @@ const portfolio = [
 		shortDesc:
 			'Wykonanie Szalandy dla Techno Marine sp. Z. O. O. Która docelowo trafi do Urzędu Morskiego w Szczecinie.',
 		link: 'empatia',
-		banner: '',
+		banner: 'promo.png',
 		// 1, 2, 3, 4, 5, 6, 7
 		gallery: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
 		client: 'Lorem ipsum dolor',
@@ -125,7 +125,7 @@ const portfolio = [
 			'Wykonanie łodzi patolowej z aluminium dla straży granicznej.',
 
 		link: 'tmr_15',
-		banner: '',
+		banner: 'promo.png',
 		img: 'promo.png',
 		// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 		gallery: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
@@ -160,7 +160,7 @@ const portfolio = [
 		client: 'Lorem ipsum dolor',
 
 		link: 'batory',
-		banner: '',
+		banner: 'promo.png',
 		fullDesc: [
 			[
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
@@ -188,7 +188,7 @@ const portfolio = [
 		// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 		gallery: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
 		link: 'karstensen',
-		banner: '',
+		banner: 'promo.png',
 		fullDesc: [
 			[
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
