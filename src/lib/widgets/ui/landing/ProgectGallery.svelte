@@ -2,7 +2,7 @@
 	export let images, path;
 </script>
 
-<section class="container mx-auto items-center px-4 lg:px-32 ">
+<section class="container mx-auto items-center px-4 mb-12 lg:px-32 ">
 	<div class="grid grid-flow-col grid-cols-4 grid-rows-4 gap-2">
 		<div class="row-span-5 w-full ">
 			<img
