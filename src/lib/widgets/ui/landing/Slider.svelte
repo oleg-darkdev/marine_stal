@@ -215,19 +215,19 @@
 			<div class="imgs">
 				<div class="grid " bind:this={img}>
 					<div class="img img-1">
-						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[1]}.jpg" />
+						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[1]}" />
 					</div>
 
 					<div class="img img-2">
-						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[1]}.jpg" />
+						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[1]}" />
 					</div>
 
 					<div class="img img-3">
-						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[2]}.jpg" />
+						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[2]}" />
 					</div>
 
 					<div class="img img-4">
-						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[3]}.jpg" />
+						<img src="images/portfolio/{portfolio[0].link}/{portfolio[0].gallery[3]}" />
 					</div>
 				</div>
 			</div>
@@ -239,19 +239,19 @@
 			<div class="imgs">
 				<div class="grid " bind:this={img}>
 					<div class="img img-1">
-						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[1]}.jpg" />
+						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[1]}" />
 					</div>
 
 					<div class="img img-2">
-						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[1]}.jpg" />
+						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[1]}" />
 					</div>
 
 					<div class="img img-3">
-						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[2]}.jpg" />
+						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[2]}" />
 					</div>
 
 					<div class="img img-4">
-						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[3]}.jpg" />
+						<img src="images/portfolio/{portfolio[1].link}/{portfolio[1].gallery[3]}" />
 					</div>
 				</div>
 			</div>
