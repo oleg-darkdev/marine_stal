@@ -41,7 +41,6 @@
 		// `Współpracujemy ze stoczniami:`
 	];
 
-	const cowork = ['RIVER REMONTOWA', 'EURO INDUSTRY', 'STOCZNIA WISŁA', 'MARINE PROJECT LTD'];
 </script>
 
 <div class="mx-auto px-4 py-12 sm:px-6 md:px-12 lg:px-24 lg:py-24 2xl:max-w-7xl 2xl:px-12">
