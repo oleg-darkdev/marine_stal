@@ -1,5 +1,5 @@
 <script>
-	// import { CountUp } from 'countup.js';
+	import { CountUp } from 'countup.js';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
