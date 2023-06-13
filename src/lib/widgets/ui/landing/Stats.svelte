@@ -1,5 +1,5 @@
 <script>
-	import { CountUp } from 'countup.js';
+	// import { CountUp } from 'countup.js';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -14,6 +14,7 @@
 		{
 			title: 'Lat na rynku',
 			id: 'experience'
+
 		},
 		{
 			title: 'Pracowników w firmie',
