@@ -21,7 +21,8 @@
   "dependencies": {
     "@tanstack/svelte-query": "^4.24.4",
     "animejs": "^3.2.1",
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "countup.js": "^2.6.2"
   },
   "devDependencies": {
     "@fontsource/fira-mono": "^4.5.10",
