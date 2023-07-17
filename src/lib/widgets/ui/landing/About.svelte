@@ -40,7 +40,6 @@
 
 		// `Współpracujemy ze stoczniami:`
 	];
-
 </script>
 
 <div class="mx-auto px-4 py-12 sm:px-6 md:px-12 lg:px-24 lg:py-24 2xl:max-w-7xl 2xl:px-12">
@@ -55,8 +54,9 @@
 				Medium length display headline.
 			</h1>
 			<p class="mb-6 text-left text-base text-base leading-relaxed">
-				Firma wykonuje prace montersko-spawalnicze konstrukcji stalowych i aluminiowych. Zakres prac
-				obejmuje prefabrykacje sekcji jak i budowę całych jednostek.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat.
 			</p>
 			<div class="space-y-2">
 				{#each features as feature}
@@ -83,7 +83,7 @@
 		</div>
 		<div class=" w-full rounded-xl lg:w-5/6 lg:max-w-lg xl:mt-0">
 			<div>
-				<div class="relative w-full max-w-lg">
+				<div class="relative -mt-60 w-full max-w-lg">
 					<!-- <div
 						class="animate-blob absolute -left-4 top-0 h-72 w-72 rounded-full bg-violet-300 opacity-70 mix-blend-multiply blur-xl filter"
 					/> -->
@@ -92,19 +92,22 @@
 						class="animate-blob animation-delay-4000 absolute -bottom-24 right-20 h-72 w-72 rounded-full bg-fuchsia-300 opacity-70 mix-blend-multiply blur-xl filter"
 					/> -->
 					<div class="relative">
-						<video
-							class="mx-auto -mt-40  rounded-lg object-cover object-center shadow-2xl"
-							src="https://web.archive.org/web/20230607110206/https://video.wixstatic.com/video/c84a50_ea41e4766a644bae811b5b5bac265d5f/720p/mp4/file.mp4"
-							autoplay
-						/>
-						<!-- preload="none" -->
+						<!-- <h1
+							class="mb-6 text-4xl text-base font-bold leading-none tracking-tighter md:text-7xl lg:text-5xl"
+						>
+							Medium length display headline.
+						</h1> -->
+						<p class="mb-6 text-left text-base text-base leading-relaxed">
+							Firma wykonuje prace montersko-spawalnicze konstrukcji stalowych i aluminiowych.
+							Zakres prac obejmuje prefabrykacje sekcji jak i budowę całych jednostek.
+						</p>
+						<p class="mb-6 text-left text-base text-base leading-relaxed">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+							dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						</p>
 
-						<!-- <img
-								class="mx-auto -mt-40 rounded-lg object-cover object-center shadow-2xl"
-								alt="hero"
-								async
-								src="https://www.globalmarineinsurance.com/wp-content/uploads/2018/06/photo-copy.jpg"
-							/> -->
 					</div>
 				</div>
 			</div>

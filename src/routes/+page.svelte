@@ -1,5 +1,14 @@
 <script>
-	import { About, Partners, Slider, Header, Progects, Stats, Gallery, Contact } from '../lib/widgets/';
+	import {
+		About,
+		Partners,
+		Slider,
+		Header,
+		Progects,
+		Stats,
+		Gallery,
+		Contact
+	} from '../lib/widgets/';
 	import { BottomWave } from '../lib/shared';
 	import { portfolio, partners } from '../lib/shared';
 </script>
@@ -9,7 +18,31 @@
 </svelte:head>
 
 <Header />
-<main class="overflow-hidden bg-primary  ">
+
+<video
+	class="video-hero z-1 rounded-lg"
+	poster="./images/gallery/1.jpg"
+	playsinline
+	autoplay
+	muted
+	loop
+>
+	<source src="/videos/hero_short_mini.mp4" />
+</video>
+
+<section class=" z-10 min-h-screen">
+	<div class="mix-blend-mode  flex w-full flex-col items-center justify-center text-center">
+		<h2
+			class="max-w-5xl text-center text-4xl font-bold leading-none tracking-tighter text-neutral-50 md:text-5xl lg:max-w-7xl lg:text-6xl"
+		>
+			Witamy w <br class="hidden lg:block" /><span class="font-black text-white "
+				>Marine Stal Sp. z o. o.</span
+			>
+		</h2>
+	</div>
+</section>
+
+<main class="-mt-14 overflow-hidden bg-primary ">
 	<div class="hero flex min-h-screen flex-col overflow-hidden">
 		<h1
 			style="right: 11%"
@@ -78,7 +111,7 @@
 		<Gallery />
 	</section>
 
-  <!-- <Contact /> -->
+	<!-- <Contact /> -->
 </main>
 
 <!-- </div> -->
@@ -100,5 +133,22 @@
 		top: 0;
 		left: 0;
 		width: 100%;
+	}
+
+	.justify-content {
+		justify-content: space-between;
+	}
+
+	.mix-blend-mode {
+		mix-blend-mode: screen;
+	}
+	.video-hero {
+		position: absolute;
+		top: 26%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
 	}
 </style>
