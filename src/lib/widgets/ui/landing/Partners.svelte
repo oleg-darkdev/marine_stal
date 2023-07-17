@@ -20,7 +20,7 @@
 			{#each partners as partner}
 				<a href={partner.link} target="_blank">
 					<img
-						class="rouded-lg m-4 mx-auto h-4  rounded bg-blue-500 p-2 shadow shadow-xl lg:h-32"
+						class="blur-xs hover:contrast-none  rounded-lg  grayscale filter hover:blur-none hover:filter-none rouded-lg m-4 mx-auto h-4  rounded bg-blue-500 p-2 shadow shadow-xl lg:h-32"
 						src="./images/logos/{partner.logo}"
 						alt={partner.title}
 					/>
@@ -29,3 +29,5 @@
 		</div>
 	</div>
 </div>
+
+
