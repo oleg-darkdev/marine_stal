@@ -35,8 +35,8 @@
 				<p class="text-medium mt-2 w-1/2 font-bold text-gray-500">💙 Poland</p>
 			</div>
 			<div class="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-				<div class="md:grid md:grid-cols-2 md:gap-8">
-					<div>
+				<div class="md:grid md:grid-cols-1 md:gap-8">
+					<!-- <div>
 						<h3 class="text-sm font-bold uppercase tracking-wider text-blue-500">Oferty pracy</h3>
 						<ul role="list" class="mt-4 space-y-2">
 							{#each workPlaces as work}
@@ -51,7 +51,7 @@
 								</li>
 							{/each}
 						</ul>
-					</div>
+					</div> -->
 					<div class="mt-12 md:mt-0">
 						<h3 class="text-sm font-bold uppercase tracking-wider text-blue-500">Nasi partnerzy</h3>
 						<ul role="list" class="mt-4 space-y-2">
