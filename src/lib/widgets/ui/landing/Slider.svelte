@@ -200,8 +200,8 @@
 	});
 </script>
 
-<div class="" bind:this={slider}>
-	<div class="slider">
+<div class="hidden-sm " bind:this={slider}>
+	<div class="slider ">
 		<div class="nav">
 			<div class="next" />
 			<div class="prev" />
@@ -260,6 +260,12 @@
 </div>
 
 <style>
+	@media (max-width: 768px) {
+		.hidden-sm {
+			display: none;
+		}
+	}
+
 	.slider {
 		height: 100vh;
 		width: 100vw;
