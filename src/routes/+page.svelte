@@ -33,7 +33,7 @@
 <section class=" z-10 min-h-screen">
 	<div class="mix-blend-mode  flex w-full flex-col items-center justify-center text-center">
 		<h2
-			class="max-w-5xl text-center text-4xl font-bold leading-none tracking-tighter text-neutral-50 md:text-5xl lg:max-w-7xl lg:text-6xl"
+			class="hidden-sm max-w-5xl text-center text-4xl font-bold leading-none tracking-tighter text-neutral-50 md:text-5xl lg:max-w-7xl lg:text-6xl"
 		>
 			Witamy w <br class="hidden lg:block" /><span class="font-black text-white "
 				>Marine Stal Sp. z o. o.</span
@@ -42,7 +42,7 @@
 	</div>
 </section>
 
-<main class="-mt-14 overflow-hidden bg-primary ">
+<main class="-mt-14  overflow-hidden bg-primary ">
 	<div class="hero flex min-h-screen flex-col overflow-hidden">
 		<h1
 			style="right: 11%"
@@ -50,7 +50,7 @@
 		>
 			Marine Stal Sp. z o. o.
 		</h1>
-		<svg class="wave-top " width="100" viewBox="0 0 2400 500">
+		<svg class="wave-top hidden-sm" width="100" viewBox="0 0 2400 500">
 			<path
 				fill-rule="evenodd"
 				clip-rule="evenodd"
@@ -62,13 +62,13 @@
 		<About />
 	</div>
 
-	<section class="bg-primary">
-		<BottomWave bgColor="bg-primary" fill="#00008b" />
+	<section class="bg-primary lg:py-0 py-8 lg:px-0 px-6">
+		<BottomWave bgColor="bg-primary"  fill="#00008b" />
 
 		<Stats />
 
 		<!-- <BottomWave bgColor="bg-white" fill="#0099FF" /> -->
-		<svg width="100" class="w-full  bg-white" viewBox="0 0 1440 320"
+		<svg width="100" class="hidden-sm w-full  bg-white" viewBox="0 0 1440 320"
 			><path
 				fill="#0099ff"
 				fill-opacity="1"
@@ -85,14 +85,14 @@
 		<BottomWave bgColor="bg-secondary" fill="#fff" />
 	</section>
 
-	<section class=" w-full bg-secondary ">
+	<section class=" w-full bg-secondary lg:py-0 py-8 lg:px-0 px-6">
 		<a name="projekty" />
 
 		<Progects progects={portfolio} />
 	</section>
 
 	<section>
-		<svg width="100" class="-mt-20 w-full" viewBox="0 0 1440 320"
+		<svg width="100" class="hidden-sm -mt-20 w-full" viewBox="0 0 1440 320"
 			><path
 				fill="#00008b"
 				fill-opacity="1"
@@ -128,6 +128,7 @@
 		padding: 1rem;
 	}
 
+
 	.wave-top {
 		position: absolute;
 		top: 0;
@@ -135,7 +136,7 @@
 		width: 100%;
 	}
 
-	.justify-content {
+	:global(.justify-content) {
 		justify-content: space-between;
 	}
 
@@ -144,11 +145,25 @@
 	}
 	.video-hero {
 		position: absolute;
-		top: 26%;
+		top: 24%;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
 	}
+
+   @media (max-width: 768px) {
+    :global(.hidden-sm) {
+      display: none;
+    }
+  .video-hero {
+
+		width: 100%;
+		height: 400px;
+		object-fit: cover;
+		object-position: center;
+	}
+}
+
 </style>
