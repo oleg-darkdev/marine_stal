@@ -2,7 +2,7 @@
   export let bgColor, fill;
 </script>
 
-<svg width="100" class="-mt-2 -mb-40 w-full {bgColor}" viewBox="0 0 1440 320"
+<svg width="100" class="hidden-sm -mt-2 -mb-40 w-full {bgColor}" viewBox="0 0 1440 320"
 	><path
 		fill-opacity="1"
 		fill="{fill} "
