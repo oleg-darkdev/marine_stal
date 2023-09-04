@@ -29,14 +29,14 @@
 			id: 'progects'
 		},
 
-		{
-			title: 'Czas pracy godzin',
-			id: 'hours'
-		},
-		{
-			title: 'Pomiar terytoriuma firmy',
-			id: 'metres'
-		}
+		// {
+		// 	title: 'Czas pracy godzin',
+		// 	id: 'hours'
+		// },
+		// {
+		// 	title: 'Pomiar terytoriuma firmy',
+		// 	id: 'metres'
+		// }
 	];
 </script>
 
