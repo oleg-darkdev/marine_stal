@@ -20,7 +20,7 @@
 <Header />
 
 <video
-	class="video-hero z-1 rounded-lg"
+	class="video-hero z-1 lg:rounded-lg md:rounded-lg -mt-4"
 	poster="./images/gallery/1.jpg"
 	playsinline
 	autoplay
@@ -30,7 +30,7 @@
 	<source src="/videos/hero_short_mini.mp4" />
 </video>
 
-<section class=" z-10 min-h-screen">
+<section class=" z-10 lg:min-h-screen md:min-h-screen h-[450px]">
 	<div class="mix-blend-mode  flex w-full flex-col items-center justify-center text-center">
 		<h2
 			class="hidden-sm max-w-5xl text-center text-4xl font-bold leading-none tracking-tighter text-neutral-50 md:text-5xl lg:max-w-7xl lg:text-6xl"

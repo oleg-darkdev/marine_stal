@@ -45,7 +45,7 @@
 <div class="mx-auto px-4 py-12 sm:px-6 md:px-12 lg:px-24 lg:py-24 2xl:max-w-7xl 2xl:px-12">
 	<div class="mx-auto flex flex-wrap items-center 2xl:max-w-7xl">
 		<div
-			class="mt-40 mb-16 flex flex-col items-start text-left md:mb-0 lg:w-1/2 lg:flex-grow lg:pr-24"
+			class="lg:mt-40 md:mt-40 lg:mb-16 md:mb-16 mb-4 flex flex-col items-start text-left md:mb-0 lg:w-1/2 lg:flex-grow lg:pr-24"
 		>
 			<span class="mb-4 text-xs font-bold uppercase tracking-widest text-blue-600"> O nas </span>
 			<h1
@@ -83,7 +83,7 @@
 		</div>
 		<div class=" w-full rounded-xl lg:w-5/6 lg:max-w-lg xl:mt-0">
 			<div>
-				<div class="relative -mt-60 w-full max-w-lg">
+				<div class="relative lg:-mt-60 md:-mt-60 w-full max-w-lg">
 					<!-- <div
 						class="animate-blob absolute -left-4 top-0 h-72 w-72 rounded-full bg-violet-300 opacity-70 mix-blend-multiply blur-xl filter"
 					/> -->

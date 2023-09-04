@@ -20,10 +20,10 @@
 	</div>
 </div>
 
-<div class="container mx-auto grid gap-4 pb-24 md:px-6 lg:w-8/12 lg:grid-cols-3 ">
+<div class="container mx-auto grid gap-4 lg:pb-24 md:pb-24  md:px-6 lg:w-8/12 lg:grid-cols-3 ">
 	<!-- grid gap-x-6 lg:grid-cols-3 lg:gap-x-12 -->
 	{#each progects as progect}
-		<a class="mb-2" href="/portfolio/{progect.link}" target="_blank">
+		<a class="mb-2 " href="/portfolio/{progect.link}" target="_blank">
 			<div
 				class="mb-6  rounded-2xl shadow-2xl   transition delay-150 duration-300 ease-in-out md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8 lg:mb-0"
 			>
@@ -31,7 +31,7 @@
 					<img
 						src="/images/portfolio/{progect.link}/{progect.img}"
 						alt={progect.title}
-						class="w-full rounded-t-xl object-cover object-center md:h-36 lg:h-64"
+						class="w-full rounded-t-xl object-cover object-center h-48 lg:h-64"
 					/>
 					<div
 						class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsla(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
