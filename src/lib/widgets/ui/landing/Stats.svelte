@@ -41,7 +41,7 @@
 </script>
 
 <div
-	class=" container mx-auto grid  max-w-6xl grid-cols-2 justify-center gap-4 text-center lg:grid-cols-3"
+	class=" container mx-auto grid  max-w-2xl grid-cols-2 justify-center gap-x-4 gap-y-10 text-center "
 >
 	{#each stats as stat}
 		<div class=" flex  flex-col items-center justify-center">
