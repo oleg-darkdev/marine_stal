@@ -29,10 +29,10 @@
 	let showNav = false;
 </script>
 
-<header class="w-full bg-primary py-6 ">
+<header class="z-10 w-full bg-primary py-6 ">
 	<div class="flex h-40 flex-col items-center">
 		<div class="flex w-full max-w-6xl flex-col items-center  ">
-			<div class="justify-content flex w-7/12  flex-row flex-wrap  ">
+			<div class="justify-content flex lg:w-7/12 w-11/12  flex-row flex-wrap  ">
 				<a
 					href=""
 					class="text-md mx-2 border-b-2 border-transparent font-medium text-white hover:text-blue-700 sm:mx-6"
@@ -45,7 +45,7 @@
 					+48 502 674 091
 				</p>
 			</div>
-			<hr class="my-4  h-1 w-7/12 border-0 bg-blue-600 " />
+			<hr class="my-4  h-1 lg:w-7/12 w-11/12 border-0 bg-blue-600 " />
 		</div>
 
 		<div class="container mx-auto flex items-center justify-between md:justify-center md:space-x-8">
