@@ -19,8 +19,9 @@
 
 <Header />
 
+<!--  -->
 <video
-	class="video-hero -mt-4 -mb-4 lg:rounded-lg md:rounded-lg "
+	class="video-hero  lg:rounded-lg md:rounded-lg "
 	poster="./images/gallery/1.jpg"
 	playsinline
 	autoplay

@@ -30,7 +30,7 @@
 </script>
 
 <header class="z-10 w-full bg-primary py-6 ">
-	<div class="flex h-40 flex-col items-center">
+	<div class="flex h-40  flex-col items-center">
 		<div class="flex w-full max-w-6xl flex-col items-center  ">
 			<div class="justify-content flex lg:w-7/12 w-11/12  flex-row flex-wrap  ">
 				<a
