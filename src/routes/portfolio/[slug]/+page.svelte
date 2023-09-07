@@ -11,7 +11,7 @@
 	<title>Statki | Marine stal | Gdańsk</title>
 </svelte:head>
 
-<BreadCrumbs link={$page.params.slug}/>
+<BreadCrumbs link={$page.params.slug} />
 <main class="bg-base">
 	<section
 		class="h-[32rem] w-full bg-cover bg-center"
@@ -33,7 +33,7 @@
 		</div>
 	</section>
 
-	<section class=" mx-auto w-full px-5 py-12  ">
+	<section class=" mx-auto w-full lg:px-5 md:px-5 px-1 py-12  ">
 		<div class="prose-2xl prose mx-auto mb-2 flex w-full flex-col text-left">
 			<div class="mb-5 border-b border-gray-200">
 				<div class="-mt-2 flex flex-col text-gray-500">
@@ -92,12 +92,12 @@
 
 	<BottomWave bgColor="bg-secondary" fill="#fff" />
 
-	<section class=" w-full bg-secondary ">
+	<section class=" w-full bg-secondary lg:py-0 py-8 lg:px-0 px-6">
 		<a name="projekty" />
 
 		<Progects progects={portfolio} />
 	</section>
-	<svg width="100" class="-mt-20 w-full" viewBox="0 0 1440 320"
+	<svg width="100" class="hidden-sm -mt-20 w-full" viewBox="0 0 1440 320"
 		><path
 			fill="#00008b"
 			fill-opacity="1"
@@ -105,3 +105,11 @@
 		/></svg
 	>
 </main>
+
+<style>
+	@media (max-width: 768px) {
+		:global(.hidden-sm) {
+			display: none;
+		}
+	}
+</style>
