@@ -19,11 +19,11 @@
 	>
 		<div class="flex h-full w-full items-center justify-center bg-blue-600/40">
 			<div class="text-center">
-				<h1
-					class="  mb-10 text-4xl font-black leading-none tracking-tighter text-white md:text-5xl  lg:text-6xl"
+				<h2
+					class="  mb-10 text-2xl font-black leading-none tracking-tighter text-white md:text-5xl  lg:text-6xl"
 				>
 					Projekt: <span class="text-blue-300">{progectData.title}</span>
-				</h1>
+				</h2>
 				<a
 					href="#about"
 					class=" w-full transform rounded-md bg-white px-8 py-4 text-lg font-medium capitalize text-blue-600 transition-colors duration-300 hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:outline-none lg:w-auto"
@@ -33,7 +33,7 @@
 		</div>
 	</section>
 
-	<section class=" mx-auto w-full lg:px-5 md:px-5 px-1 py-12  ">
+	<section class=" mx-auto w-full px-1 py-12 md:px-5 lg:px-5  ">
 		<div class="prose-2xl prose mx-auto mb-2 flex w-full flex-col text-left">
 			<div class="mb-5 border-b border-gray-200">
 				<div class="-mt-2 flex flex-col text-gray-500">
@@ -54,19 +54,19 @@
 			<!-- max-w-6xl text-2xl font-bold leading-none tracking-tighter text-white md:text-5xl lg:max-w-2xl lg:text-6xl -->
 			<h1 class="font-bold leading-none tracking-tighter text-gray-600">{progectData.title}</h1>
 			{#each progectData.fullDesc[0] as desc}
-				<p class="mt-1 text-gray-500">{desc}</p>
+				<p class="prose-1xl prose mt-1 px-2 text-gray-600 md:flex-grow md:px-0 lg:px-0 ">{desc}</p>
 			{/each}
 
 			<PortfolioStep step={progectData.steps[0]} />
 
 			{#each progectData.fullDesc[1] as desc}
-				<p class="mt-1 text-gray-500">{desc}</p>
+				<p class="prose-1xl prose mt-1 px-2   text-gray-600 md:flex-grow md:px-0 lg:px-0 ">{desc}</p>
 			{/each}
 
 			<PortfolioStep step={progectData.steps[1]} />
 
 			{#each progectData.fullDesc[2] as desc}
-				<p class="mt-1 text-gray-500">{desc}</p>
+				<p class="prose-1xl prose mt-1 px-2  text-gray-600 md:flex-grow md:px-0 lg:px-0 ">{desc}</p>
 			{/each}
 
 			<PortfolioStep step={progectData.steps[2]} />
@@ -92,7 +92,7 @@
 
 	<BottomWave bgColor="bg-secondary" fill="#fff" />
 
-	<section class=" w-full bg-secondary lg:py-0 py-8 lg:px-0 px-6">
+	<section class=" w-full bg-secondary py-8 px-6 lg:py-0 lg:px-0">
 		<a name="projekty" />
 
 		<Progects progects={portfolio} />
